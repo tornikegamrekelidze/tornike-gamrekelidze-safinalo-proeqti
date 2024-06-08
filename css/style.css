@@ -1,0 +1,122 @@
+.container {
+  max-width: 1540px;
+  width: 100%;
+  margin: 0 auto;
+  height: 80px;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.5);
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+}
+
+.art {
+  color: #f8f9fa;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+
+ul {
+  display: flex;
+  gap: 25px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+
+li a {
+  color: white;
+}
+.main {
+  color: aqua;
+}
+
+.line1 {
+  width: 0.5px;
+  height: 20px;
+  margin-left: 17px;
+  margin-right: 17px;
+}
+.div-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fa-facebook {
+  margin-right: 18px;
+}
+.fa-twitter {
+  margin-right: 18px;
+}
+.fa-youtube {
+  margin-right: 18px;
+}
+
+.s-1 {
+  height: 600px;
+  background-image: url(../images/saxli.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.სახლი {
+  max-width: 120px;
+  display: inline-flex;
+  padding: 5px 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.15);
+  margin-top: 250px;
+  margin-left: 70px;
+}
+
+.sax {
+  color: #fff;
+  text-align: right;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+}
+
+.add {
+  margin-left: 70px;
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+}
+
+.pp {
+  color: #e5e5e5;
+  font-family: Lora;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 166.667% */
+}
+
+.m-div {
+  display: flex;
+  flex-direction: column;
+  max-width: 550px;
+  height: 200px;
+  gap: 15px;
+}
