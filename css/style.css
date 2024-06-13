@@ -244,3 +244,186 @@ li a {
   line-height: 20px; /* 166.667% */
   letter-spacing: 1px;
 }
+
+/* აქ ვიწყებ footers */
+
+.container2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1530px;
+  height: 400px;
+  background-color: #212529;
+  margin-top: 150px;
+}
+.div-1 {
+  max-width: 220px;
+}
+@media (max-width: 700px) {
+  .div-1 {
+    display: none;
+  }
+}
+
+.contact {
+  color: #fff;
+  font-family: "Lora", serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 138.889% */
+  margin-bottom: 16px;
+  letter-spacing: 1px;
+}
+@media (max-width: 700px) {
+  .contact {
+    font-size: 15px;
+    letter-spacing: none;
+    margin-bottom: 2px;
+  }
+}
+
+.mail {
+  color: #e5e5e5;
+  font-family: "Lora", serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+@media (max-width: 700px) {
+  .mail {
+    font-size: 10px;
+  }
+}
+
+.tell {
+  color: #e5e5e5;
+  font-family: "Lora", serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.div-3 {
+  max-width: 110px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.explor {
+  color: #fff;
+  font-family: "Lora", serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 138.889% */
+}
+
+@media (max-width: 700px) {
+  .explor {
+    font-size: 13px;
+  }
+}
+.wwr {
+  color: #e5e5e5;
+  font-family: "Lora", serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.wwr1 {
+  color: #e5e5e5;
+  font-family: "Lora", serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@media (max-width: 700px) {
+  .wwr1 {
+    display: none;
+  }
+}
+
+.div-4 {
+  max-width: 120px;
+}
+
+.head {
+  color: #fff;
+  font-family: "Lora", serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 138.889% */
+  margin-bottom: 15px;
+}
+
+.sss {
+  color: #e5e5e5;
+  font-family: "Lora", serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 166.667% */
+}
+
+.div-5 {
+  max-width: 140px;
+}
+
+.conn {
+  color: #fff;
+  font-family: "Lora", serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 138.889% */
+  margin-bottom: 15px;
+}
+
+.tbc {
+  width: 50px;
+  height: 50px;
+}
+
+/* info htmlis dawyeba */
+
+.container-n1 {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.p-11 {
+  color: #495057;
+  font-family: "Lora", serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 178.571% */
+  margin-bottom: 40px;
+}
+
+.p-12 {
+  color: #495057;
+  font-family: "Lora", serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 178.571% */
+  margin-bottom: 30px;
+}
+
+.man {
+  width: 420px;
+  height: 300px;
+  border-radius: 5px;
+  margin-left: 15px;
+}
