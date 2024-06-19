@@ -1,11 +1,23 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 10 version
+*/
+
 .container {
   max-width: 1540px;
   width: 100%;
   margin: 0 auto;
   height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   background-color: rgba(0, 0, 0, 0.5);
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
   position: fixed;
 }
@@ -21,6 +33,8 @@
 }
 
 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 25px;
   font-family: "Ubuntu", sans-serif;
@@ -33,6 +47,8 @@ ul {
 
 li a {
   color: white;
+  -webkit-transition-duration: 0, 7s;
+  -o-transition-duration: 0, 7s;
   transition-duration: 0, 7s;
   border-bottom: 3px solid rgba(0, 0, 0, 0.5);
 }
@@ -50,8 +66,14 @@ li a:hover {
   margin-right: 17px;
 }
 .div-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -92,10 +114,19 @@ li a:hover {
 
 .სახლი {
   max-width: 120px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
   display: inline-flex;
   padding: 5px 10px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   gap: 10px;
   border-radius: 8px;
@@ -156,7 +187,12 @@ li a:hover {
 }
 
 .m-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   max-width: 540px;
   height: 200px;
@@ -179,15 +215,25 @@ li a:hover {
 }
 
 .main-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   max-width: 1300px;
 }
 
 @media (max-width: 620px) {
   .main-div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
   }
 }
@@ -205,10 +251,14 @@ li a:hover {
   margin-top: 40px;
   max-width: 310px;
   height: 450px;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
   transition: 1s;
 }
 
 .card1:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
   transform: scale(1.1);
   z-index: 2;
 }
@@ -253,8 +303,13 @@ li a:hover {
 /* აქ ვიწყებ footers */
 
 .container2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   max-width: 1530px;
   height: 400px;
@@ -314,7 +369,12 @@ li a:hover {
 
 .div-3 {
   max-width: 110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   gap: 18px;
 }
@@ -399,15 +459,43 @@ a img {
 
 /* info htmlis dawyeba */
 
-.container-n1 {
+.serv {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #2d8ff1;
+  font-size: 40px;
+  margin-top: 50px;
+}
+
+.container-n1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   max-width: 900px;
   width: 100%;
   margin: 0 auto;
   margin-top: 100px;
 }
+
+@media (max-width: 700px) {
+  .container-n1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+
 .xedi-12 {
   width: 300px;
   height: 350px;
@@ -416,11 +504,13 @@ a img {
 .c-334 {
   width: 300px;
   height: 350px;
+  -webkit-perspective: 1000px;
   perspective: 1000px;
 }
 
 .c-334:hover > .flip {
   cursor: pointer;
+  -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
 }
 
@@ -428,12 +518,18 @@ a img {
   width: 100%;
   height: 100%;
   position: relative;
+  -webkit-transition: -webkit-transform 1500ms;
+  transition: -webkit-transform 1500ms;
+  -o-transition: transform 1500ms;
   transition: transform 1500ms;
+  transition: transform 1500ms, -webkit-transform 1500ms;
+  -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
 
 .flip:hover {
   cursor: pointer;
+  -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
 }
 
@@ -442,20 +538,107 @@ a img {
   width: 100%;
   height: 100%;
   border-radius: 10px;
+  -webkit-box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
   box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
   position: absolute;
+  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
 .back {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  gap: 40px;
+  padding: 20px;
   background-color: #3a3a3a;
+  -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
 }
 
 .b-h1 {
   color: #fff;
+}
+
+.flip-p {
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.b2-h1 {
+  font-size: 30px;
+  color: #fff;
+}
+
+.container-n33 {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.image {
+  margin-top: 200px;
+  height: 600px;
+  background-image: url(../images/house24.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.flex-d {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  max-width: 700px;
+  height: 150px;
+  gap: 20px;
+}
+
+.news-1 {
+  color: #f59d44;
+  font-family: "Lora", serif;
+  font-size: 76px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.news-p {
+  color: #ffffff;
+  font-family: "Lora", serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
 }
