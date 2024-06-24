@@ -808,3 +808,80 @@ a img {
   font-weight: 400;
   line-height: 25px; /* 178.571% */
 }
+
+.us {
+  color: #495057;
+  font-family: "Lora", serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+
+.container335 {
+  display: flex;
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 100px;
+  background-color: black;
+}
+
+.dag {
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  color: gray;
+  margin-left: 180px;
+  font-family: "Lora", serif;
+}
+.text-2 {
+  margin-left: 150px;
+  margin-top: 30px;
+}
+
+.text1 {
+  max-width: 450px;
+  width: 100%;
+  height: 59px;
+  padding: 21px;
+  margin-bottom: 20px;
+  border: 2px solid rgba(212, 211, 211, 0.3);
+  background-color: black;
+  color: white;
+}
+
+.text2 {
+  max-width: 450px;
+  width: 100%;
+  height: 59px;
+  padding: 21px;
+  margin-bottom: 20px;
+  border: 2px solid rgba(212, 211, 211, 0.3);
+  background-color: black;
+  color: white;
+}
+
+.number1 {
+  max-width: 450px;
+  width: 100%;
+  height: 59px;
+  padding: 21px;
+  border: 2px solid rgba(212, 211, 211, 0.3);
+  background-color: black;
+  color: white;
+}
+
+.but {
+  margin-top: 1rem;
+  margin-left: 80px;
+  display: inline-block;
+  padding: 2rem 3.75rem;
+  border-radius: 30rem;
+  font-size: 1.7rem;
+  color: black;
+  cursor: pointer;
+  background-color: white;
+}
