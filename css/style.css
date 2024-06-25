@@ -809,6 +809,9 @@ a img {
   line-height: 25px; /* 178.571% */
 }
 
+/* აქ ვიწყებ ცონტაცტის ასწყობას
+ */
+
 .us {
   color: #495057;
   font-family: "Lora", serif;
@@ -827,6 +830,13 @@ a img {
   margin: 0 auto;
   margin-top: 100px;
   background-color: black;
+  border-radius: 10px;
+}
+
+@media (max-width: 1205px) {
+  .container335 {
+    flex-direction: column;
+  }
 }
 
 .dag {
@@ -837,9 +847,122 @@ a img {
   margin-left: 180px;
   font-family: "Lora", serif;
 }
+
+@media (max-width: 600px) {
+  .dag {
+    font-size: 45px;
+    margin-left: 130px;
+  }
+}
+
+@media (max-width: 480px) {
+  .dag {
+    font-size: 40px;
+    margin-left: 100px;
+  }
+}
+
+@media (max-width: 450px) {
+  .dag {
+    font-size: 35px;
+    margin-left: 100px;
+  }
+}
+
+@media (max-width: 340px) {
+  .dag {
+    font-size: 30px;
+    margin-left: 70px;
+  }
+}
+
 .text-2 {
   margin-left: 150px;
   margin-top: 30px;
+}
+@media (max-width: 610px) {
+  .text-2 {
+    margin-left: 80px;
+  }
+}
+
+@media (max-width: 480px) {
+  .text-2 {
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 450px) {
+  .text-2 {
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 435px) {
+  .text-2 {
+    margin-left: 20px;
+  }
+}
+
+.map {
+  max-width: 600px;
+}
+
+iframe {
+  width: 600px;
+  border-radius: 10px;
+}
+
+@media (max-width: 1100px) {
+  iframe {
+    margin-left: 190px;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  iframe {
+    max-width: 400px;
+    height: 350px;
+    margin-left: 90px;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 550px) {
+  iframe {
+    max-width: 400px;
+    height: 350px;
+    margin-left: 70px;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  iframe {
+    max-width: 400px;
+    height: 350px;
+    margin-left: 40px;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 440px) {
+  iframe {
+    max-width: 370px;
+    height: 320px;
+    margin-left: 35px;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 340px) {
+  iframe {
+    max-width: 290px;
+    height: 280px;
+    margin-left: 25px;
+    border-radius: 10px;
+  }
 }
 
 .text1 {
@@ -853,6 +976,27 @@ a img {
   color: white;
 }
 
+@media (max-width: 550px) {
+  .text1 {
+    max-width: 400px;
+    height: 49px;
+  }
+}
+
+@media (max-width: 435px) {
+  .text1 {
+    max-width: 370px;
+    height: 49px;
+  }
+}
+
+@media (max-width: 340px) {
+  .text1 {
+    max-width: 270px;
+    height: 42px;
+  }
+}
+
 .text2 {
   max-width: 450px;
   width: 100%;
@@ -862,6 +1006,27 @@ a img {
   border: 2px solid rgba(212, 211, 211, 0.3);
   background-color: black;
   color: white;
+}
+
+@media (max-width: 550px) {
+  .text2 {
+    max-width: 400px;
+    height: 49px;
+  }
+}
+
+@media (max-width: 435px) {
+  .text2 {
+    max-width: 370px;
+    height: 49px;
+  }
+}
+
+@media (max-width: 340px) {
+  .text2 {
+    max-width: 270px;
+    height: 42px;
+  }
 }
 
 .number1 {
@@ -874,6 +1039,27 @@ a img {
   color: white;
 }
 
+@media (max-width: 550px) {
+  .number1 {
+    max-width: 400px;
+    height: 49px;
+  }
+}
+
+@media (max-width: 435px) {
+  .number1 {
+    max-width: 370px;
+    height: 49px;
+  }
+}
+
+@media (max-width: 340px) {
+  .number1 {
+    max-width: 270px;
+    height: 42px;
+  }
+}
+
 .but {
   margin-top: 1rem;
   margin-left: 80px;
@@ -884,4 +1070,17 @@ a img {
   color: black;
   cursor: pointer;
   background-color: white;
+}
+
+@media (max-width: 550px) {
+  .but {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 340px) {
+  .but {
+    font-size: 17px;
+    margin-left: 40px;
+  }
 }
