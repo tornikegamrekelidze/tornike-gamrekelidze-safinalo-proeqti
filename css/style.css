@@ -597,7 +597,7 @@ a img {
 }
 
 .image {
-  margin-top: 200px;
+  margin-top: 100px;
   height: 600px;
   background-image: url(../images/house24.jpg);
   background-repeat: no-repeat;
@@ -633,6 +633,12 @@ a img {
   line-height: normal;
 }
 
+@media (max-width: 715px) {
+  .news-1 {
+    font-size: 65px;
+  }
+}
+
 .news-p {
   color: #ffffff;
   font-family: "Lora", serif;
@@ -641,6 +647,13 @@ a img {
   font-weight: 700;
   line-height: normal;
   letter-spacing: 1px;
+}
+
+@media (max-width: 715px) {
+  .news-p {
+    font-size: 15px;
+    letter-spacing: none;
+  }
 }
 
 .card2 {
@@ -791,7 +804,6 @@ a img {
 
 .p-n1 {
   margin-top: 100px;
-  margin-bottom: 40px;
   color: #495057;
   font-family: "Lora", serif;
   font-size: 14px;
@@ -866,6 +878,13 @@ a img {
   .dag {
     font-size: 35px;
     margin-left: 100px;
+  }
+}
+
+@media (max-width: 380px) {
+  .dag {
+    font-size: 35px;
+    margin-left: 60px;
   }
 }
 
@@ -956,6 +975,15 @@ iframe {
   }
 }
 
+@media (max-width: 380px) {
+  iframe {
+    max-width: 330px;
+    height: 260px;
+    margin-left: 30px;
+    border-radius: 10px;
+  }
+}
+
 @media (max-width: 340px) {
   iframe {
     max-width: 290px;
@@ -974,6 +1002,7 @@ iframe {
   border: 2px solid rgba(212, 211, 211, 0.3);
   background-color: black;
   color: white;
+  font-size: 15px;
 }
 
 @media (max-width: 550px) {
@@ -986,6 +1015,13 @@ iframe {
 @media (max-width: 435px) {
   .text1 {
     max-width: 370px;
+    height: 49px;
+  }
+}
+
+@media (max-width: 380px) {
+  .text1 {
+    max-width: 330px;
     height: 49px;
   }
 }
@@ -1006,6 +1042,7 @@ iframe {
   border: 2px solid rgba(212, 211, 211, 0.3);
   background-color: black;
   color: white;
+  font-size: 15px;
 }
 
 @media (max-width: 550px) {
@@ -1018,6 +1055,13 @@ iframe {
 @media (max-width: 435px) {
   .text2 {
     max-width: 370px;
+    height: 49px;
+  }
+}
+
+@media (max-width: 380px) {
+  .text2 {
+    max-width: 330px;
     height: 49px;
   }
 }
@@ -1037,6 +1081,7 @@ iframe {
   border: 2px solid rgba(212, 211, 211, 0.3);
   background-color: black;
   color: white;
+  font-size: 15px;
 }
 
 @media (max-width: 550px) {
@@ -1049,6 +1094,13 @@ iframe {
 @media (max-width: 435px) {
   .number1 {
     max-width: 370px;
+    height: 49px;
+  }
+}
+
+@media (max-width: 380px) {
+  .number1 {
+    max-width: 330px;
     height: 49px;
   }
 }
@@ -1075,6 +1127,13 @@ iframe {
 @media (max-width: 550px) {
   .but {
     font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .but {
+    font-size: 1.2rem;
+    margin-left: 35px;
   }
 }
 
